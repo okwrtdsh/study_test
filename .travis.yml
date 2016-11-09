@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - '6.1'
+sudo: false
+cache:
+  directories:
+    - node_modules
+script:
+  - npm run build
+  - '[ "$TRAVIS_BRANCH" == master ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && bash ./deploy.sh'
+before_install:
+  - openssl aes-256-cbc -K $encrypted_a441d02550bb_key -iv $encrypted_a441d02550bb_iv -in ".travis/github_deploy_key.enc" -out github_deploy_key -d
+  - chmod 600 github_deploy_key
+  - ssh-add github_deploy_key
+  - git config --global user.name "Travis-CI"
+  - git config --global user.email "noreply@travis-ci.org"
