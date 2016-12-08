@@ -1,0 +1,1008 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Lint Toolについて · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../current.html" />
+    
+    
+    <link rel="prev" href="coverage.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../test.html">
+            
+                <a href="../test.html">
+            
+                    
+                    テストについて
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../python.html">
+            
+                <a href="../python.html">
+            
+                    
+                    Pythonでのテスト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../django.html">
+            
+                <a href="../django.html">
+            
+                    
+                    Djangoでのテストについて
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../django/models.html">
+            
+                <a href="../django/models.html">
+            
+                    
+                    modelsのテスト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../django/forms.html">
+            
+                <a href="../django/forms.html">
+            
+                    
+                    formsのテスト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../django/views.html">
+            
+                <a href="../django/views.html">
+            
+                    
+                    viewsのテスト
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../django/other.html">
+            
+                <a href="../django/other.html">
+            
+                    
+                    その他
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../gitlab.html">
+            
+                <a href="../gitlab.html">
+            
+                    
+                    GitLab CIについて
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../gitlab/ci.html">
+            
+                <a href="../gitlab/ci.html">
+            
+                    
+                    CIの設定
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../tool.html">
+            
+                <a href="../tool.html">
+            
+                    
+                    Test Toolについて
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="coverage.html">
+            
+                <a href="coverage.html">
+            
+                    
+                    Code Coverageについて
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2.2" data-path="lint.html">
+            
+                <a href="lint.html">
+            
+                    
+                    Lint Toolについて
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../current.html">
+            
+                <a href="../current.html">
+            
+                    
+                    テストの現状とこれから
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../overall.html">
+            
+                <a href="../overall.html">
+            
+                    
+                    まとめ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../last.html">
+            
+                <a href="../last.html">
+            
+                    
+                    最後に
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Lint Toolについて</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="lint-tool&#x306B;&#x3064;&#x3044;&#x3066;">Lint Tool&#x306B;&#x3064;&#x3044;&#x3066;</h1>
+<p>Lint Tool&#x3068;&#x306F;</p>
+<ul>
+<li>&#x69CB;&#x6587;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x30C4;&#x30FC;&#x30EB;&#x306E;&#x3053;&#x3068;</li>
+<li>&#x6587;&#x6CD5;&#x7684;&#x306A;&#x30DF;&#x30B9;&#x306F;&#x3082;&#x3061;&#x308D;&#x3093;&#x3001;&#x4E00;&#x76EE;&#x898B;&#x305F;&#x3060;&#x3051;&#x3067;&#x306F;&#x6C17;&#x3065;&#x3051;&#x306A;&#x3044;&#x3088;&#x3046;&#x306A;&#x3082;&#x306E;&#x307E;&#x3067;&#x77E5;&#x3089;&#x305B;&#x3066;&#x304F;&#x308C;&#x308B;</li>
+</ul>
+<h2 id="&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x30C4;&#x30FC;&#x30EB;">&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x30C4;&#x30FC;&#x30EB;</h2>
+<h3 id="pep8"><a href="http://pep8.readthedocs.io/en/latest/" target="_blank">pep8</a></h3>
+<p>Python&#x306E;&#x30B3;&#x30FC;&#x30C7;&#x30A3;&#x30F3;&#x30B0;&#x898F;&#x7D04;&#x3067;&#x3042;&#x308B;<a href="https://www.python.org/dev/peps/pep-0008/" target="_blank">PEP8</a>(<a href="https://pep8-ja.readthedocs.io/ja/latest/" target="_blank">&#x65E5;&#x672C;&#x8A9E;</a>)&#x306B;&#x5F93;&#x3063;&#x3066;&#x3044;&#x308B;&#x304B;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</p>
+<h3 id="pydocstylepep257"><a href="http://www.pydocstyle.org/en/latest/" target="_blank">pydocstyle(pep257)</a></h3>
+<p>Docstring&#x898F;&#x7D04;&#x3067;&#x3042;&#x308B;<a href="https://www.python.org/dev/peps/pep-0257/" target="_blank">PEP257</a>&#x306B;&#x5F93;&#x3063;&#x3066;&#x3044;&#x308B;&#x304B;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</p>
+<h3 id="pyflakes"><a href="https://github.com/PyCQA/pyflakes" target="_blank">pyflakes</a></h3>
+<p>&#x672A;&#x4F7F;&#x7528;&#x306E;&#x5909;&#x6570;&#x3084;&#x672A;&#x5BA3;&#x8A00;&#x306E;&#x5909;&#x6570;&#x306E;&#x4F7F;&#x7528;&#x3001;&#x4E0D;&#x8981;&#x306A;&#x30A4;&#x30F3;&#x30DD;&#x30FC;&#x30C8;&#x306E;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x306A;&#x3069;&#x3092;&#x884C;&#x3046;&#x3053;&#x3068;&#x304C;&#x3067;&#x304D;&#x308B;</p>
+<h3 id="import-order"><a href="https://github.com/spoqa/import-order" target="_blank">import-order</a></h3>
+<p>import&#x306E;&#x9806;&#x5E8F;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</p>
+<blockquote>
+<ol>
+<li>Module order: <code>__future__</code> , standard libraries, site-packages, local.</li>
+<li><code>CONSTANT_NAMES</code> must be the first.</li>
+<li><code>ClassNames</code> must be the second.</li>
+<li>Rest must be in alphabetical order.</li>
+</ol>
+</blockquote>
+<h3 id="flake8"><a href="http://flake8.pycqa.org/en/latest/" target="_blank">flake8</a></h3>
+<p>pep8&#x3068;pyflakes&#x306E;&#x6A5F;&#x80FD;&#x3092;&#x3042;&#x308F;&#x305B;&#x6301;&#x3064;</p>
+<p>&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;&#x304C;&#x8C4A;&#x5BCC;&#x306B;&#x3042;&#x308B;</p>
+<ul>
+<li>hacking<ul>
+<li>flake8 &#x306B;&#x52A0;&#x3048;&#x3066;OpenStack Style Guidelines&#x306E;&#x30EB;&#x30FC;&#x30EB;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</li>
+</ul>
+</li>
+<li>flake8-pep257<ul>
+<li>flake8&#x3067;PEP257&#x3082;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</li>
+</ul>
+</li>
+<li>flake8-import-order<ul>
+<li>flake8&#x3067;import&#x306E;&#x9806;&#x5E8F;&#x3082;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</li>
+</ul>
+</li>
+<li>flake8-coding<ul>
+<li>Magic Comment&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</li>
+</ul>
+</li>
+<li>flake8-double-quotes (flake8-quotes)<ul>
+<li>&#x6587;&#x5B57;&#x5217;&#x3092;<code>&quot;</code>&#x3067;&#x56F2;&#x3080;&#x304B;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</li>
+</ul>
+</li>
+<li>flake8-print<ul>
+<li>print&#x3092;&#x4F7F;&#x3063;&#x3066;&#x306A;&#x3044;&#x304B;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</li>
+</ul>
+</li>
+<li>flake8-todo<ul>
+<li>TODO&#x306E;&#x66F8;&#x304D;&#x65B9;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</li>
+</ul>
+</li>
+<li>pep8-naming<ul>
+<li>&#x547D;&#x540D;&#x898F;&#x5247;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</li>
+</ul>
+</li>
+<li>flake8-copyright<ul>
+<li>&#x8457;&#x4F5C;&#x6A29;&#x8868;&#x793A;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3059;&#x308B;</li>
+</ul>
+</li>
+</ul>
+<h3 id="pylint"><a href="https://pylint.readthedocs.io/en/latest/" target="_blank">pylint</a></h3>
+<p>&#x6587;&#x6CD5;&#x30A8;&#x30E9;&#x30FC;&#x3084;&#x8B66;&#x544A;&#x306F;&#x3082;&#x3061;&#x308D;&#x3093;&#x3001;&#x30EA;&#x30D5;&#x30A1;&#x30AF;&#x30BF;&#x30EA;&#x30F3;&#x30B0;&#x3059;&#x3079;&#x304D;&#x9805;&#x76EE;&#x3082;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3057;&#x3066;&#x304F;&#x308C;&#x308B;</p>
+<p>&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x9805;&#x76EE;&#x304C;&#x591A;&#x304F;&#x3001;flake8&#x3088;&#x308A;&#x3082;&#x5F37;&#x529B;</p>
+<h2 id="&#x5909;&#x63DB;&#x30C4;&#x30FC;&#x30EB;">&#x5909;&#x63DB;&#x30C4;&#x30FC;&#x30EB;</h2>
+<h3 id="autopep8"><a href="https://github.com/hhatto/autopep8" target="_blank">autopep8</a></h3>
+<p>PEP8&#x306B;&#x5BFE;&#x5FDC;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x5909;&#x63DB;&#x3059;&#x308B;</p>
+<h3 id="autoflake"><a href="https://github.com/myint/autoflake" target="_blank">autoflake</a></h3>
+<p>pyflakes&#x306B;&#x5BFE;&#x5FDC;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x5909;&#x63DB;&#x3059;&#x308B;</p>
+<h3 id="isort"><a href="https://github.com/timothycrosley/isort" target="_blank">isort</a></h3>
+<p>import&#x306E;&#x9806;&#x5E8F;&#x3092;&#x4E26;&#x3073;&#x66FF;&#x3048;&#x308B;</p>
+<h3 id="docformatter"><a href="https://github.com/myint/docformatter" target="_blank">docformatter</a></h3>
+<p>PEP257&#x306B;&#x5BFE;&#x5FDC;&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x5909;&#x63DB;&#x3059;&#x308B;</p>
+<h3 id="pyformat"><a href="https://github.com/myint/pyformat" target="_blank">pyformat</a></h3>
+<p>autopep8&#x3068;autoflake&#x3068;docformatter&#x306E;&#x6A5F;&#x80FD;&#x3092;&#x3042;&#x308F;&#x305B;&#x6301;&#x3064;</p>
+<h2 id="django&#x7528;&#x306E;&#x8A2D;&#x5B9A;">Django&#x7528;&#x306E;&#x8A2D;&#x5B9A;</h2>
+<ul>
+<li>setup.cfg<ul>
+<li>settings&#x3068;migrations&#x3092;&#x9664;&#x3044;&#x3066;&#x3044;&#x308B;</li>
+</ul>
+</li>
+</ul>
+<pre><code>[flake8]
+max-line-length = 119
+exclude = src/some/*settings.py, src/**/migrations/*.py
+
+[isort]
+combine_as_imports = true
+default_section = THIRDPARTY
+include_trailing_comma = true
+known_first_party = some
+line_length = 79
+multi_line_output = 5
+not_skip = __init__.py
+skip = settings.py, migrations
+force_sort_within_sections = true
+</code></pre><ul>
+<li>.pylintrc<ul>
+<li>&#x81EA;&#x52D5;&#x751F;&#x6210;&#x3057;&#x305F;&#x3082;&#x306E;&#x3092;&#x7DE9;&#x3081;&#x305F;&#x3082;&#x306E;</li>
+</ul>
+</li>
+</ul>
+<pre><code>[MASTER]
+
+# Specify a configuration file.
+#rcfile=
+
+# Python code to execute, usually for sys.path manipulation such as
+# pygtk.require().
+#init-hook=
+
+# Add files or directories to the blacklist. They should be base names, not
+# paths.
+ignore=CVS, migrations, settings, tests, tests.py, testapp, urls.py, wsgi.py
+
+# Add files or directories matching the regex patterns to the blacklist. The
+# regex matches against base names, not paths.
+ignore-patterns=[A-Za-z0-9_]*settings, test[A-Za-z0-9_]*
+
+# Pickle collected data for later comparisons.
+persistent=yes
+
+# List of plugins (as comma separated values of python modules names) to load,
+# usually to register additional checkers.
+load-plugins=
+
+# Use multiple processes to speed up Pylint.
+jobs=1
+
+# Allow loading of arbitrary C extensions. Extensions are imported into the
+# active Python interpreter and may run arbitrary code.
+unsafe-load-any-extension=no
+
+# A comma-separated list of package or module names from where C extensions may
+# be loaded. Extensions are loading into the active Python interpreter and may
+# run arbitrary code
+extension-pkg-whitelist=
+
+# Allow optimization of some AST trees. This will activate a peephole AST
+# optimizer, which will apply various small optimizations. For instance, it can
+# be used to obtain the result of joining multiple strings with the addition
+# operator. Joining a lot of strings can lead to a maximum recursion error in
+# Pylint and this flag can prevent that. It has one side effect, the resulting
+# AST will be different than the one from reality. This option is deprecated
+# and it will be removed in Pylint 2.0.
+optimize-ast=no
+
+
+[MESSAGES CONTROL]
+
+# Only show warnings with the listed confidence levels. Leave empty to show
+# all. Valid levels: HIGH, INFERENCE, INFERENCE_FAILURE, UNDEFINED
+confidence=
+
+# Enable the message, report, category or checker with the given id(s). You can
+# either give multiple identifier separated by comma (,) or put this option
+# multiple time (only on the command line, not in the configuration file where
+# it should appear only once). See also the &quot;--disable&quot; option for examples.
+#enable=
+
+# Disable the message, report, category or checker with the given id(s). You
+# can either give multiple identifiers separated by comma (,) or put this
+# option multiple times (only on the command line, not in the configuration
+# file where it should appear only once).You can also use &quot;--disable=all&quot; to
+# disable everything first and then reenable specific checks. For example, if
+# you want to run only the similarities checker, you can use &quot;--disable=all
+# --enable=similarities&quot;. If you want to run only the classes checker, but have
+# no Warning level messages displayed, use&quot;--disable=all --enable=classes
+# --disable=W&quot;
+disable=delslice-method,nonzero-method,old-octal-literal,hex-method,map-builtin-not-iterating,long-suffix,unpacking-in-except,zip-builtin-not-iterating,print-statement,old-division,parameter-unpacking,apply-builtin,unichr-builtin,basestring-builtin,intern-builtin,backtick,coerce-builtin,raising-string,standarderror-builtin,metaclass-assignment,coerce-method,cmp-builtin,round-builtin,no-absolute-import,long-builtin,dict-view-method,dict-iter-method,buffer-builtin,suppressed-message,setslice-method,useless-suppression,execfile-builtin,reduce-builtin,old-ne-operator,range-builtin-not-iterating,next-method-called,reload-builtin,using-cmp-argument,getslice-method,indexing-exception,cmp-method,oct-method,unicode-builtin,raw_input-builtin,old-raise-syntax,input-builtin,import-star-module-level,xrange-builtin,file-builtin,filter-builtin-not-iterating,C0111,C0112,C0103,R0901,R0903,R0904,R0913,W0201,W0613
+# C0103,C0111,C0112,C0325,C0330,R0201,R0801,R0901,R0902,R0903,R0904,R0912,R0913,W0102,W0201,W0212,W0221,W0222,W0401,W0511,W0613,W0622,W0703,E1101,E1305
+# invalid-name (C0103): Invalid %s name &#x201C;%s&#x201D;%s Used when the name doesn&#x2019;t match the regular expression associated to its type (constant, variable, class...).
+# missing-docstring (C0111): Missing %s docstring Used when a module, function, class or method has no docstring.Some special methods like __init__ doesn&#x2019;t necessary require a docstring.
+# empty-docstring (C0112): Empty %s docstring Used when a module, function, class or method has an empty docstring (it would be too easy ;).
+# superfluous-parens (C0325): Unnecessary parens after %r keyword Used when a single item in parentheses follows an if, for, or other keyword.
+# bad-continuation (C0330): Wrong %s indentation%s%s. TODO
+# no-self-use (R0201): Method could be a function Used when a method doesn&#x2019;t use its bound instance, and so could be written as a function.
+# duplicate-code (R0801): Similar lines in %s files Indicates that a set of similar lines has been detected among multiple file. This usually means that the code should be refactored to avoid this duplication.
+# too-many-ancestors (R0901): Too many ancestors (%s/%s) Used when class has too many parent classes, try to reduce this to get a simpler (and so easier to use) class.
+# too-many-instance-attributes (R0902): Too many instance attributes (%s/%s) Used when class has too many instance attributes, try to reduce this to get a simpler (and so easier to use) class.
+# too-few-public-methods (R0903): Too few public methods (%s/%s) Used when class has too few public methods, so be sure it&#x2019;s really worth it.
+# too-many-public-methods (R0904): Too many public methods (%s/%s) Used when class has too many public methods, try to reduce this to get a simpler (and so easier to use) class.
+# too-many-branches (R0912): Too many branches (%s/%s) Used when a function or method has too many branches, making it hard to follow.
+# too-many-arguments (R0913): Too many arguments (%s/%s) Used when a function or method takes too many arguments.
+# dangerous-default-value (W0102): Dangerous default value %s as argument Used when a mutable value as list or dictionary is detected in a default value for an argument.
+# attribute-defined-outside-init (W0201): Attribute %r defined outside __init__ Used when an instance attribute is defined outside the __init__ method.
+# protected-access (W0212): Access to a protected member %s of a client class Used when a protected member (i.e. class member with a name beginning with an underscore) is access outside the class or a descendant of the class where it&#x2019;s defined.
+# arguments-differ (W0221): Arguments number differs from %s %r method Used when a method has a different number of arguments than in the implemented interface or in an overridden method.
+# signature-differs (W0222): Signature differs from %s %r method Used when a method signature is different than in the implemented interface or in an overridden method.
+# wildcard-import (W0401): Wildcard import %s Used when from module import * is detected.
+# fixme (W0511): Used when a warning note as FIXME or XXX is detected.
+# unused-argument (W0613): Unused argument %r Used when a function or method argument is not used.
+# redefined-builtin (W0622): Redefining built-in %r Used when a variable or function override a built-in.
+# broad-except (W0703): Catching too general exception %s Used when an except catches a too general exception, possibly burying unrelated errors.
+# no-member (E1101): %s %r has no %r member%s Used when a variable is accessed for an unexistent member.
+# too-many-format-args (E1305): Too many arguments for format string Used when a format string that uses unnamed conversion specifiers is given too many arguments.
+
+
+[REPORTS]
+
+# Set the output format. Available formats are text, parseable, colorized, msvs
+# (visual studio) and html. You can also give a reporter class, eg
+# mypackage.mymodule.MyReporterClass.
+output-format=text
+
+# Put messages in a separate file for each module / package specified on the
+# command line instead of printing them on stdout. Reports (if any) will be
+# written in a file name &quot;pylint_global.[txt|html]&quot;. This option is deprecated
+# and it will be removed in Pylint 2.0.
+files-output=no
+
+# Tells whether to display a full report or only the messages
+reports=yes
+
+# Python expression which should return a note less than 10 (10 is the highest
+# note). You have access to the variables errors warning, statement which
+# respectively contain the number of errors / warnings messages and the total
+# number of statements analyzed. This is used by the global evaluation report
+# (RP0004).
+evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10)
+
+# Template used to display messages. This is a python new-style format string
+# used to format the message information. See doc for all details
+#msg-template=
+
+
+[LOGGING]
+
+# Logging modules to check that the string format arguments are in logging
+# function parameter format
+logging-modules=logging
+
+
+[TYPECHECK]
+
+# Tells whether missing members accessed in mixin class should be ignored. A
+# mixin class is detected if its name ends with &quot;mixin&quot; (case insensitive).
+ignore-mixin-members=yes
+
+# List of module names for which member attributes should not be checked
+# (useful for modules/projects where namespaces are manipulated during runtime
+# and thus existing member attributes cannot be deduced by static analysis. It
+# supports qualified module names, as well as Unix pattern matching.
+ignored-modules=
+
+# List of class names for which member attributes should not be checked (useful
+# for classes with dynamically set attributes). This supports the use of
+# qualified names.
+ignored-classes=optparse.Values,thread._local,_thread._local
+
+# List of members which are set dynamically and missed by pylint inference
+# system, and so shouldn&apos;t trigger E1101 when accessed. Python regular
+# expressions are accepted.
+generated-members=
+
+# List of decorators that produce context managers, such as
+# contextlib.contextmanager. Add to this list to register other decorators that
+# produce valid context managers.
+contextmanager-decorators=contextlib.contextmanager
+
+
+[BASIC]
+
+# Good variable names which should always be accepted, separated by a comma
+good-names=i,j,k,ex,Run,_
+
+# Bad variable names which should always be refused, separated by a comma
+bad-names=foo,bar,baz,toto,tutu,tata
+
+# Colon-delimited sets of names that determine each other&apos;s naming style when
+# the name regexes allow several styles.
+name-group=
+
+# Include a hint for the correct naming format with invalid-name
+include-naming-hint=no
+
+# List of decorators that produce properties, such as abc.abstractproperty. Add
+# to this list to register other decorators that produce valid properties.
+property-classes=abc.abstractproperty
+
+# Regular expression matching correct constant names
+const-rgx=(([A-Z_][A-Z0-9_]*)|(__.*__))$
+
+# Naming hint for constant names
+const-name-hint=(([A-Z_][A-Z0-9_]*)|(__.*__))$
+
+# Regular expression matching correct module names
+module-rgx=(([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$
+
+# Naming hint for module names
+module-name-hint=(([a-z_][a-z0-9_]*)|([A-Z][a-zA-Z0-9]+))$
+
+# Regular expression matching correct attribute names
+attr-rgx=[a-z_][a-z0-9_]{2,30}$
+
+# Naming hint for attribute names
+attr-name-hint=[a-z_][a-z0-9_]{2,30}$
+
+# Regular expression matching correct method names
+method-rgx=[a-z_][a-z0-9_]{2,30}$
+
+# Naming hint for method names
+method-name-hint=[a-z_][a-z0-9_]{2,30}$
+
+# Regular expression matching correct class names
+class-rgx=[A-Z_][a-zA-Z0-9]+$
+
+# Naming hint for class names
+class-name-hint=[A-Z_][a-zA-Z0-9]+$
+
+# Regular expression matching correct argument names
+argument-rgx=[a-z_][a-z0-9_]{2,30}$
+
+# Naming hint for argument names
+argument-name-hint=[a-z_][a-z0-9_]{2,30}$
+
+# Regular expression matching correct class attribute names
+class-attribute-rgx=([A-Za-z_][A-Za-z0-9_]{2,30}|(__.*__))$
+
+# Naming hint for class attribute names
+class-attribute-name-hint=([A-Za-z_][A-Za-z0-9_]{2,30}|(__.*__))$
+
+# Regular expression matching correct function names
+function-rgx=[a-z_][a-z0-9_]{2,30}$
+
+# Naming hint for function names
+function-name-hint=[a-z_][a-z0-9_]{2,30}$
+
+# Regular expression matching correct inline iteration names
+inlinevar-rgx=[A-Za-z_][A-Za-z0-9_]*$
+
+# Naming hint for inline iteration names
+inlinevar-name-hint=[A-Za-z_][A-Za-z0-9_]*$
+
+# Regular expression matching correct variable names
+variable-rgx=[a-z_][a-z0-9_]{2,30}$
+
+# Naming hint for variable names
+variable-name-hint=[a-z_][a-z0-9_]{2,30}$
+
+# Regular expression which should only match function or class names that do
+# not require a docstring.
+no-docstring-rgx=^_
+
+# Minimum line length for functions/classes that require docstrings, shorter
+# ones are exempt.
+docstring-min-length=-1
+
+
+[ELIF]
+
+# Maximum number of nested blocks for function / method body
+max-nested-blocks=5
+
+
+[SPELLING]
+
+# Spelling dictionary name. Available dictionaries: none. To make it working
+# install python-enchant package.
+spelling-dict=
+
+# List of comma separated words that should not be checked.
+spelling-ignore-words=
+
+# A path to a file that contains private dictionary; one word per line.
+spelling-private-dict-file=
+
+# Tells whether to store unknown words to indicated private dictionary in
+# --spelling-private-dict-file option instead of raising a message.
+spelling-store-unknown-words=no
+
+
+[SIMILARITIES]
+
+# Minimum lines number of a similarity.
+min-similarity-lines=4
+
+# Ignore comments when computing similarities.
+ignore-comments=yes
+
+# Ignore docstrings when computing similarities.
+ignore-docstrings=yes
+
+# Ignore imports when computing similarities.
+ignore-imports=no
+
+
+[MISCELLANEOUS]
+
+# List of note tags to take in consideration, separated by a comma.
+notes=FIXME,XXX,TODO
+
+
+[FORMAT]
+
+# Maximum number of characters on a single line.
+max-line-length=119
+
+# Regexp for a line that is allowed to be longer than the limit.
+ignore-long-lines=^\s*(# )?&lt;?https?://\S+&gt;?$
+
+# Allow the body of an if to be on the same line as the test if there is no
+# else.
+single-line-if-stmt=no
+
+# List of optional constructs for which whitespace checking is disabled. `dict-
+# separator` is used to allow tabulation in dicts, etc.: {1  : 1,\n222: 2}.
+# `trailing-comma` allows a space between comma and closing bracket: (a, ).
+# `empty-line` allows space-only lines.
+no-space-check=trailing-comma,dict-separator
+
+# Maximum number of lines in a module
+max-module-lines=1000
+
+# String used as indentation unit. This is usually &quot;    &quot; (4 spaces) or &quot;\t&quot; (1
+# tab).
+indent-string=&apos;    &apos;
+
+# Number of spaces of indent required inside a hanging  or continued line.
+indent-after-paren=4
+
+# Expected format of line ending, e.g. empty (any line ending), LF or CRLF.
+expected-line-ending-format=
+
+
+[VARIABLES]
+
+# Tells whether we should check for unused import in __init__ files.
+init-import=no
+
+# A regular expression matching the name of dummy variables (i.e. expectedly
+# not used).
+dummy-variables-rgx=(_+[a-zA-Z0-9]*?$)|dummy
+
+# List of additional names supposed to be defined in builtins. Remember that
+# you should avoid to define new builtins when possible.
+additional-builtins=
+
+# List of strings which can identify a callback function by name. A callback
+# name must start or end with one of those strings.
+callbacks=cb_,_cb
+
+# List of qualified module names which can have objects that can redefine
+# builtins.
+redefining-builtins-modules=six.moves,future.builtins
+
+
+[IMPORTS]
+
+# Deprecated modules which should not be used, separated by a comma
+deprecated-modules=optparse
+
+# Create a graph of every (i.e. internal and external) dependencies in the
+# given file (report RP0402 must not be disabled)
+import-graph=
+
+# Create a graph of external dependencies in the given file (report RP0402 must
+# not be disabled)
+ext-import-graph=
+
+# Create a graph of internal dependencies in the given file (report RP0402 must
+# not be disabled)
+int-import-graph=
+
+# Force import order to recognize a module as part of the standard
+# compatibility libraries.
+known-standard-library=
+
+# Force import order to recognize a module as part of a third party library.
+known-third-party=enchant
+
+# Analyse import fallback blocks. This can be used to support both Python 2 and
+# 3 compatible code, which means that the block might have code that exists
+# only in one or another interpreter, leading to false positives when analysed.
+analyse-fallback-blocks=no
+
+
+[DESIGN]
+
+# Maximum number of arguments for function / method
+max-args=5
+
+# Argument names that match this expression will be ignored. Default to name
+# with leading underscore
+ignored-argument-names=_.*
+
+# Maximum number of locals for function / method body
+max-locals=15
+
+# Maximum number of return / yield for function / method body
+max-returns=6
+
+# Maximum number of branch for function / method body
+max-branches=12
+
+# Maximum number of statements in function / method body
+max-statements=50
+
+# Maximum number of parents for a class (see R0901).
+max-parents=7
+
+# Maximum number of attributes for a class (see R0902).
+max-attributes=7
+
+# Minimum number of public methods for a class (see R0903).
+min-public-methods=2
+
+# Maximum number of public methods for a class (see R0904).
+max-public-methods=20
+
+# Maximum number of boolean expressions in a if statement
+max-bool-expr=5
+
+
+[CLASSES]
+
+# List of method names used to declare (i.e. assign) instance attributes.
+defining-attr-methods=__init__,__new__,setUp
+
+# List of valid names for the first argument in a class method.
+valid-classmethod-first-arg=cls
+
+# List of valid names for the first argument in a metaclass class method.
+valid-metaclass-classmethod-first-arg=mcs
+
+# List of member names, which should be excluded from the protected access
+# warning.
+exclude-protected=_asdict,_fields,_replace,_source,_make
+
+
+[EXCEPTIONS]
+
+# Exceptions that will emit a warning when being caught. Defaults to
+# &quot;Exception&quot;
+overgeneral-exceptions=Exception
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="coverage.html" class="navigation navigation-prev " aria-label="Previous page: Code Coverageについて">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../current.html" class="navigation navigation-next " aria-label="Next page: テストの現状とこれから">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Lint Toolについて","level":"3.2.2","depth":2,"next":{"title":"テストの現状とこれから","level":"4.1","depth":1,"path":"current.md","ref":"current.md","articles":[]},"previous":{"title":"Code Coverageについて","level":"3.2.1","depth":2,"path":"tool/coverage.md","ref":"tool/coverage.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"tool/lint.md","mtime":"2016-12-08T15:00:58.262Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-12-08T15:01:47.169Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
